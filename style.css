@@ -1,0 +1,52 @@
+h2 {
+    color: green; 
+    font-size: 2em;
+}
+
+
+
+body{
+    background-color: rgb(255,400,200);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+#sobre-mim {
+    background-color: brown;
+  
+line-height: 55px;
+font-weight: 600;
+letter-spacing: -1px;
+}
+
+.titulo3{
+    color:green;
+    text-align: center;
+    
+    
+
+}
+
+.list-style {
+    background-color: blueviolet;
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: underline;
+   
+
+}
+
+.link-foto{
+    color:red;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: underline;
+
+}
