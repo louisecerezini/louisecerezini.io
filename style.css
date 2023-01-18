@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 h2 {
     color: green; 
     font-size: 2em;
@@ -9,44 +16,69 @@ body{
     background-color: rgb(255,400,200);
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 
 
 #sobre-mim {
-    background-color: brown;
+    background-color: gray;
   
 line-height: 55px;
 font-weight: 600;
 letter-spacing: -1px;
+border-bottom: 5px solid yellow;
 }
 
 .titulo3{
     color:green;
     text-align: center;
+    text-decoration: underline;
     
     
 
 }
 
 .list-style {
-    background-color: blueviolet;
+    background-color: gray;
     color:white;
     font-weight: bold;
     font-style: italic;
     line-height: 40px;
-    text-align: center;
-    text-decoration: underline;
-   
+    text-align: center;   
+    display: inline-block;
 
 }
+li:hover{
+   text-align: left; 
+   background-color: black;
+
+}
+li:active{
+    color:white;
+}
+
 
 .link-foto{
-    color:red;
+    color:green;
     font-weight: bold;
     font-style: italic;
     line-height: 40px;
     text-align: center;
-    text-decoration: underline;
+    
 
+}
+
+.list-div{
+    width: 100%;
+    background-color: gray;
+    overflow-y: auto;
+    overflow-x: hidden; 
+    height: 300px;
+
+}
+
+.ola{
+    color:blue
+    
 }
