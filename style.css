@@ -17,8 +17,21 @@ body{
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    margin: 25px; 
+    padding: 25px; 
+    border: 1px solid rgb(23, 230, 58);
+    
 }
 
+#minha-foto{
+    border:solid 2px;
+    border: radius 70px;
+    height: 200px;
+    width:200px;
+    border-color: yellow;  
+
+    
+}
 
 
 #sobre-mim {
@@ -28,20 +41,24 @@ line-height: 55px;
 font-weight: 600;
 letter-spacing: -1px;
 border-bottom: 5px solid yellow;
+margin: 25px; 
+    padding: 25px; 
+    border: 1px solid rgb(153, 172, 50);
 }
+
 
 .titulo3{
     color:green;
     text-align: center;
     text-decoration: underline;
-    
-    
+    border-radius: 0%;
+
 
 }
 
 .list-style {
     background-color: gray;
-    color:white;
+    color:black;
     font-weight: bold;
     font-style: italic;
     line-height: 40px;
@@ -51,11 +68,11 @@ border-bottom: 5px solid yellow;
 }
 li:hover{
    text-align: left; 
-   background-color: black;
+   background-color: yellow;
 
 }
 li:active{
-    color:white;
+    color:black; 
 }
 
 
@@ -66,6 +83,7 @@ li:active{
     line-height: 40px;
     text-align: center;
     
+    
 
 }
 
@@ -75,10 +93,30 @@ li:active{
     overflow-y: auto;
     overflow-x: hidden; 
     height: 300px;
+    margin: 25px; 
+    padding: 25px; 
+    border: 1px solid #fff;
+}
 
+.top-links > a {
+    color: green;
 }
 
 .ola{
-    color:blue
+    color:black;  
+    
     
 }
+
+.localization{
+    text-align: center;
+}
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    margin: 25px; 
+    padding: 25px; 
+    border: 1px solid #fff;
+}
+
